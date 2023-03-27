@@ -1,0 +1,18 @@
+.header{
+    height: 80px;
+    /* width: 1365px; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.nav-icon a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.nav-icon a:hover{
+    color: burlywood;
+}
