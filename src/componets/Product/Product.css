@@ -2,8 +2,35 @@
     height: 286px;
     width: 286px;
     align-items: center;
+    margin: 7px;
+    border-radius: 10px;
 }
 .product{
+    height: 580px;
+    width: 300px;
     border: 2px solid rebeccapurple;
     border-radius: 10px;
+    /* padding: 10px; */
+    position: relative;
+    margin: 0;
+}
+.btn-cart{
+background-color: rgb(235, 236, 159);
+border: 2px solid slategrey;
+width: 100%;
+position: absolute;
+bottom: 0;
+}
+
+.product-info p{
+    margin: 0;
+}
+.product-info{
+    margin-left: 10px;
+}
+
+.product-name{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
