@@ -1,0 +1,9 @@
+.cart{
+    background-color: burlywood;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+.cart p{
+    font-size: 17px;
+}
