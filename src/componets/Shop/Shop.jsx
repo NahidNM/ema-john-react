@@ -22,7 +22,7 @@ const [cart, setCart] = useState([]);
         const storedCart = getShoppingCart();
    for(let id in storedCart){
    const addedProduct = products.find(product=> product.id == id);
-  console.log(addedProduct);
+//   console.log(addedProduct);
 if(addedProduct){
     const quantity = storedCart[id];
 addedProduct.quantity = quantity;
